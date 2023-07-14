@@ -4,7 +4,7 @@ import { Producto } from '../interface/productos';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductosService {
+export class ProductosService { // esto define un servicio "ProductosService" que proporciona una lista de productos 
 
   constructor() { }
 

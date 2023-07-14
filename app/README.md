@@ -1,27 +1,28 @@
-# App
+Este proyecto es una aplicación de página única (SPA) desarrollada en Angular que permite mostrar u ocultar una tabla de productos y costos mediante un botón.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Características principales
+La aplicación utiliza el framework Angular para crear una interfaz de usuario interactiva y receptiva.
+La tabla de productos y costos se oculta de forma predeterminada y se puede mostrar haciendo clic en el botón correspondiente.
 
-## Development server
+Requisitos de instalación
+Para ejecutar la aplicación localmente, necesitarás tener instalados los siguientes componentes:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Node.js (https://nodejs.org)
+Angular CLI (https://cli.angular.io/)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Instrucciones de instalación
+Sigue estos pasos para instalar y ejecutar la aplicación:
 
-## Build
+Clona o descarga este repositorio en tu máquina local.
+Abre una terminal en la carpeta raíz del proyecto.
+Ejecuta el comando npm install para instalar las dependencias.
+Ejecuta el comando ng serve para compilar y ejecutar la aplicación.
+Abre tu navegador web y accede a http://localhost:4200 para ver la aplicación en funcionamiento.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Estructura del proyecto
+El proyecto sigue la siguiente estructura de directorios:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+src/app: Contiene los archivos fuente de la aplicación.
+src/app/components: Contiene los componentes de la aplicación.
+src/app/services: Contiene los servicios utilizados para obtener los datos de los productos.
