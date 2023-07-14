@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    background-color: rgb(6, 6, 98);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+h1{   
+    color: white;
+    margin-bottom: 5px;   
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;    
+}
+.wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.table{
+    border-collapse: separate;
+    border: blue 5px solid;
+    background-color: lightblue;   
+    width: 50%; 
+}
+
+td{
+    border: blue 2px solid;
+    text-align: center;
+}
+

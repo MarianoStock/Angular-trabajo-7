@@ -1,8 +1,13 @@
-<button mat-raised-button color="primary" (click)="mostrarVista()">{{ mostrarLista ? 'Ocultar Lista' : 'Mostrar Lista'}}</button>
+<div class="nav">
+    <h1>Listas de productos y precios</h1>
+</div>
 
-<div class="wraper" *ngIf="mostrarLista">
-    <table>
-        <tr>
+<div class="btn">
+<button mat-button color="primary" (click)="mostrarVista()">{{ mostrarLista ? 'Ocultar Lista' : 'Mostrar Lista'}}</button>
+</div>
+<div class="wraper" *ngIf="mostrarLista" style="display: flex;">
+    <table class="table">
+        <tr class="encabezado">
             <td>NOMBRES</td>
             <td>COSTOS</td>
         </tr>
